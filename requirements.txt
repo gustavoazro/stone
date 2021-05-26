@@ -1,1 +1,6 @@
-# requirements.txt
+Flask==2.0.0
+Jinja2==3.0.1
+requests==2.22.0
+requests-unixsocket==0.2.0
+simplejson==3.16.0
+Werkzeug==2.0.1
