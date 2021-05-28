@@ -1,8 +1,6 @@
 name: Teste desafio Stone
 
-on:
-  release:
-    types: [created]		
+on: push
 jobs:
   build:
     name: Build, Publish, and Deploy
