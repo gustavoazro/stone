@@ -1,11 +1,27 @@
-# Desafio - Stone
+# DESAFIO > Stone DevOps | SRE
 
-Repositório elaborado e construido para cumprir o desafio SRE/DevOps:
-https://github.com/stone-payments/stone-sre-devops-challenge
+Repositório elaborado e construído para cumprir o desafio SRE/DevOps:
+> https://github.com/stone-payments/stone-sre-devops-challenge
 
-## API
+Repositório de resposta ao desafio: 
+> https://github.com/gustavoazro/stone
 
-- Linguagem de desenvolvimento: Python (Flask e Request)
-  Arquivo: app.py
+## Entregável 1
 
-- Container
+**API: Linguagem de desenvolvimento (Python/Flask)**
+  - Arquivo: /app.py
+  - Banco de dados: sqlite com persistência em memória
+  - Estrutura do App
+  
+  Local | Ação
+  ------|------
+  '/' | Acessa índice com as opções
+  /consulta-todos | Retorna todos os registros em JSON (GET)
+  /consulta-cpf | Retorna registro em JSON (POST)
+  /inserir | Insere registro em JSON (POST)
+
+**Container**
+  - Arquivo: Dockerfile, requirements.txt
+
+**Pipeline**
+  - Ferramenta: GitHub Actions
