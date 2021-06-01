@@ -23,5 +23,13 @@ Repositório de resposta ao desafio:
 **Container**
   - Arquivo: Dockerfile, requirements.txt
 
-**Pipeline**
-  - Ferramenta: GitHub Actions
+**Pipeline - CI**
+  - Ferramenta: GitHub Actions (Build app.py dentro do container e publica no Docker Hub)
+  - Arquivo: stone/.github/workflows/ci_docker_hub.yml
+  - Destino do container (Docker Hub): gustavoazro/stone:latest
+
+**Publicação do app no GKE (conforme tabela acima)**
+  - http://35.232.33.46/ (Índice)
+  - http://35.232.33.46/consulta-todos
+  - http://35.232.33.46/consulta-cpf
+  - http://35.232.33.46/inserir
