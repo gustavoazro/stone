@@ -29,7 +29,7 @@ def home():
 
 
 # rota de consulta para todos os registros
-@app.route('/consulta-todos1', methods=['GET'])
+@app.route('/consulta-todos', methods=['GET'])
 def consulta_todos():
     # seleciona todos os usuarios da tabela
     rows = cursor.execute('SELECT * FROM cadastro').fetchall()
